@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Doh-main Name</title>
     <meta charset="UTF-8">
     <link href="table.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://yousef.sitesattheedgeofthe.world/onionring.css">
     <style>
         .wrapper {
             margin-top: 4px;
             display: grid;
             grid-template-columns: 50% 50%;
-            grid-template-rows: repeat(9, 1fr);
+            grid-template-rows: repeat(6, 1fr);
             grid-gap: 5px;
             background-image: url(images/background.jpg);
             background-size: 200px;
@@ -50,21 +52,24 @@
             border: 3px;
             border-style: double;
             border-color: rgb(202, 132, 229);
+
         }
 
         .podcast {
             grid-column: 2/3;
-            grid-row: 3/6;
+            grid-row: 3/5;
             text-align: center;
             border-radius: 4px;
             border: 3px;
             border-style: double;
             border-color: rgb(202, 132, 229);
+            display: grid;
+            place-items: center;
         }
 
         .quote {
             grid-column: 1/2;
-            grid-row: 4/6;
+            grid-row: 4/5;
             border-radius: 4px;
             border: 3px;
             border-style: double;
@@ -73,38 +78,24 @@
 
         .blog {
             grid-column: 1/3;
+            grid-row: 5/6;
+            border-radius: 4px;
+            border: 3px;
+            border-style: double;
+            border-color: rgb(202, 132, 229);
+            display: grid;
+            place-items: center;
+        }
+
+        footer {
+            grid-column: 1/3;
             grid-row: 6/7;
             border-radius: 4px;
             border: 3px;
             border-style: double;
             border-color: rgb(202, 132, 229);
-        }
-
-        .webring {
-            grid-column: 1/2;
-            grid-row: 7/9;
-            border-radius: 4px;
-            border: 3px;
-            border-style: double;
-            border-color: rgb(202, 132, 229);
-        }
-
-        .hobbies {
-            grid-column: 2/3;
-            grid-row: 7/10;
-            border-radius: 4px;
-            border: 3px;
-            border-style: double;
-            border-color: rgb(202, 132, 229);
-        }
-
-        footer {
-            grid-column: 1/2;
-            grid-row: 9/10;
-            border-radius: 4px;
-            border: 3px;
-            border-style: double;
-            border-color: rgb(202, 132, 229);
+            display: grid;
+            place-items: center;
         }
     </style>
 </head>
@@ -113,8 +104,7 @@
     <div class="container">
         <div class="wrapper">
             <div class="header">
-                <img src="images/welcome8.gif" />
-                <h2>to the personal site of Sheryl</h2>
+                <h2><img src="images/welcome8.gif" height="120px"><br>to the personal site of Sheryl</h2>
             </div>
             <div class="about">
                 <p>Hello, my name is <img src="images/sheryl_blinkie.gif"> </p>
@@ -128,14 +118,18 @@
                 <h2>Picture Albums</h2>
                 <p><a href="gallery.html"> My Play-Doh Gallery</a></p>
                 <h2>Shrines</h2>
-                <p><a href="animalcrossing.html">My Animal Crossing Island</p>
                 <p><a href="sylvan.html">Sylvan</a></p>
+                <p><a href="art.html">Art (WIP)</a></p>
+                <p><a href="playdoh.html">Play-Doh (WIP)</a>
+                <p><a href="blakemills.html">Blake Mills (WIP)</a></p>
+                <p><a href="clay.html">Clay Sculpting (WIP)</a></p>
+
             </div>
             <div class="podcast">
                 <h2>My Podcast</h2>
                 <img src="https://via.placeholder.com/300" class="center">
                 <p>The Malleable Adult is a podcast from 24 year-old New York native and child at heart Cheryl. After being told her whole life she needs to grow up and start acting her age, Cheryl started a podcast embracing her youthful side, from her love of play-doh to her hatred of brussel sprouts. Each week Cheryl has on a new guest to discuss ways they're healing and holding onto their inner child, and share tales of how their 'adulting' has gone wrong.</p>
-                <p>Read the transcript for Episode 1, Episode 2, Episode 3, Episode 4</p>
+                <!--                <p>Read the transcript for Episode 1, Episode 2, Episode 3, Episode 4</p>-->
             </div>
 
             <div class="quote">
@@ -156,29 +150,11 @@
                     <li><a href="blog3.html">12/04/2014 08:09pm <i>It's a small world: I was walking the street towards my coffee shop the other day when a couple kind of hopped out of the way...</i></a></li>
                 </ul>
             </div>
-            <div class="hobbies">
-                <h2>Hobbies & Interests</h2>
-                <p>Animal Crossing - Animal crossing is a game that allows players to interact with a virtual world of animals. The player takes on the role of a human character who lives in a village inhabited by anthropomorphic animals. The player can explore the village, collect items, and perform various tasks in order to earn rewards. The game is also unique in that it features a dynamic in-game economy, and a day-night cycle which affects the behavior of the animal residents.</p>
-                <p>Art - There are countless ways to experience art in New York City and Brooklyn. Whether it’s strolling through a museum or gallery, attending a performance, or simply people-watching in a busy park, there’s always something to see and appreciate.
-
-                    One of the great things about art in New York is that it’s so diverse. You can find traditional pieces in well-known museums like the Metropolitan Museum of Art, or more experimental works in smaller galleries. There’s also a huge range of prices, so you can enjoy art whether you’re on a budget or have a bit more to spend.
-
-                    And of course, art isn’t just limited to paintings and sculptures. New York is home to a vibrant theater and music scene, and there are always new street art and murals popping up around the city. No matter what you’re interested in, you’re sure to find something to enjoy in New York’s art scene.</p>
-                <p>Play-doh - Play-doh is a type of Therapy Dough that is used to help soothe and calm people of all ages. It is often used in therapeutic settings such as occupational therapy, physical therapy, and speech therapy. Play-doh can also be used at home to help with anxiety, stress, and sensory processing disorder. Play-doh has a calming effect and can help to improve focus and concentration. It is also a great way to bond with others and can be used as a form of group therapy.</p>
-                <p>Clay Sculpting - I attend a clay sculpting class every Wednesday evening. It's a great way to relax and get in touch with my creative side. I enjoy working with my hands and shaping the clay into whatever design I please.
-
-                    The class is small, so there's plenty of individual attention from the instructor. She's very knowledgeable and always has helpful suggestions on how to improve our sculptures. I've learned a lot and had a great time doing it.</p>
-                <p>Blake Mills -
-                    New York's own Blake Mills is a local Bronx band on the rise. The group is made up of five members who all contribute to the songwriting, vocals, and instrumentals. The band has been together for over four years and has honed their sound to create a unique blend of rock, folk, and blues.
-
-                    Blake Mills has released two EPs and one full-length album, which has received critical acclaim from both fans and critics alike. The band is currently gearing up for a tour in support of their latest album, which is sure to be a hit with audiences.
-
-                    If you're looking for a new band to check out, be sure to give Blake Mills a listen. You won't be disappointed..</p>
-                <p>New York City - The greatest city in the world. I grew up in the Bronx and spent most of my summers in Coney Island. I went to school in Manhattan and now I live and work in Brooklyn </p>
-            </div>
-            <div class="webring">Webring</div>
             <footer>
                 <img src="images/gbook.gif">
+                <div id='sites'>
+                    <script type="text/javascript" src="https://yousef.sitesattheedgeofthe.world/onionring-variables.js"></script>
+                    <script type="text/javascript" src="https://yousef.sitesattheedgeofthe.world/onionring-widget.js"></script>
             </footer>
         </div>
     </div>

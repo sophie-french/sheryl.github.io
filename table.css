@@ -5,7 +5,7 @@
 
      body {
          margin: 0px;
-         background-image: url(images/background.jpg);
+         background-image: url(Images/background.jpg);
          background-size: 200px;
          font-family: ocr-a-std, monospace;
          font-style: normal;
@@ -61,4 +61,10 @@
          bottom: 10px;
          left: 10px;
          z-index: 100;
+     }
+
+     body {
+         cursor: url(http://www.fillster.com/myspace-cursors/41.ani),
+             url(http://www.fillster.com/myspace-cursors/41.gif),
+             pointer !important;
      }
